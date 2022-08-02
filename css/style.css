@@ -42,8 +42,6 @@
 }
 
 /* BANNER */
-.banner {  
-}
 .banner > .row {
   margin-bottom: 5rem;
   margin-right: 0;
@@ -76,7 +74,7 @@
 }
 .card-banner {
   position: absolute;
-  width: 320px;
+  width: 360px;
   top: 50%;
   transform: translateY(-50%);
   left: 10%;

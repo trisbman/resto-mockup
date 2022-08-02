@@ -1,8 +1,12 @@
 body {
-  background-color: #fafafa;  
+  background-color: #fafafa;
 }
 * {
   font-family: Poppins, sans-serif;
+}
+
+.text-secondary {
+  color: #656565;
 }
 
 .text-purple {
@@ -40,6 +44,9 @@ body {
   text-align: center;
   font-weight: 600;
   padding: 1rem 1.25rem;
+}
+.btn-arrow {
+  border-radius: 0.5rem !important;
 }
 .container > section,
 .container > div {
