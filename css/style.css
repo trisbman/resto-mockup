@@ -37,11 +37,6 @@
   width: 280px;
   border: none;
 }
-.btn-login {
-  color: var(--purple);
-  background-color: var(--light-purple);
-  font-weight: bolder;
-}
 
 /* BENEFIT */
 
@@ -65,4 +60,21 @@
 }
 .featured-slide .col:nth-child(3) {
   background-image: url(/image/place/image\ 6_2.png);
+}
+
+/* RESTAURANT */
+.restaurant-body .row > .col .card-restaurant {
+  background-size: cover;
+  height: 450px;
+  background-position: center;
+}
+
+.restaurant-body .row > .col:first-child .card-restaurant {
+  background-image: url(/image/place/image\ 8_1.png);
+}
+.restaurant-body .row > .col:nth-child(2) .card-restaurant {
+  background-image: url(/image/place/image\ 7.png);
+}
+.restaurant-body .row > .col:nth-child(3) .card-restaurant {
+  background-image: url(/image/place/image\ 7_1.png);
 }

@@ -1,5 +1,5 @@
 body {
-  background-color: #f2f2f2;
+  background-color: #fafafa;
 }
 * {
   font-family: Poppins, sans-serif;
@@ -22,21 +22,34 @@ body {
 .btn-yellow {
   color: var(--black);
   background-color: var(--yellow);
-}
-
-button.btn {
-  border-radius: 0.5rem !important;
   border: solid 2px var(--yellow);
-  text-align: center;
-  font-weight: 600;
-  padding: 1rem 1.25rem;
 }
-button.btn-yellow:hover {
+.btn-yellow:hover {
   border: solid 2px var(--yellow);
   background-color: var(--yellow);
 }
 
+.btn-purple {
+  color: var(--purple);
+  background-color: var(--light-purple);
+  border: solid 2px var(--light-purple);
+}
+
+.btn {
+  border-radius: 0.5rem !important;
+  text-align: center;
+  font-weight: 600;
+  padding: 1rem 1.25rem;
+}
 .container > section,
 .container > div {
   margin-bottom: 144px;
+}
+
+.dropdown button,
+.dropdown button:hover,
+.dropdown button:focus {
+  background-color: var(--light-gray);
+  color: gray;
+  border: none;
 }
