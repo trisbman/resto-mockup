@@ -1,0 +1,19 @@
+.icon {
+  padding-right: 25px;
+}
+.icon::before {
+  height: 18px;
+  width: 18px;
+  content: "";
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+}
+
+.icon-star::before {
+  background-image: url(/image/Star\ 1.png);
+}
+.icon-location::before {
+  background-image: url(/image/Location.png);
+}

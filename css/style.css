@@ -43,9 +43,26 @@
   font-weight: bolder;
 }
 
-
 /* BENEFIT */
 
-.card-img-top {  
+.card-img-top {
   object-fit: contain;
+}
+
+/* FEATURED */
+
+.featured-slide .col {
+  background-size: cover;
+  height: 500px;
+  background-position: center;
+}
+
+.featured-slide .col:first-child {
+  background-image: url(/image/place/image\ 5.png);
+}
+.featured-slide .col:nth-child(2) {
+  background-image: url(/image/place/image\ 6.png);
+}
+.featured-slide .col:nth-child(3) {
+  background-image: url(/image/place/image\ 6_2.png);
 }
