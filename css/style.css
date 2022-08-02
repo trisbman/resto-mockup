@@ -42,11 +42,11 @@
 }
 
 /* BANNER */
-.banner {
-  margin: 12.5rem;
-  margin-bottom: 5rem;
+.banner {  
 }
 .banner > .row {
+  margin-bottom: 5rem;
+  margin-right: 0;
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
@@ -56,12 +56,13 @@
 .banner-item {
   position: relative;
   height: 35vmax;
-  width: 85%;
+  width: 70%;
 }
 .banner-item-slide {
   position: absolute;
   background-size: cover;
   background-position: center;
+  left: 20%;
 }
 .banner-item:not(.active) .card-banner {
   display: none;
@@ -78,7 +79,7 @@
   width: 320px;
   top: 50%;
   transform: translateY(-50%);
-  left: 5%;
+  left: 10%;
   z-index: 2;
 }
 
