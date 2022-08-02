@@ -14,6 +14,9 @@
 .icon-star::before {
   background-image: url(/image/Star\ 1.png);
 }
+.icon-info::before {
+  background-image: url(/image/info.png);
+}
 .icon-location::before {
   background-image: url(/image/Location.png);
 }

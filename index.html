@@ -20,7 +20,7 @@
 <body>
   <nav class="navbar navbar-expand-lg m-4">
     <div class="container-fluid">
-      <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse justify-content-between">
         <ul class="navbar-nav mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -57,14 +57,48 @@
             <input class="form-control ps-5 me-2 search-box" type="search" aria-label="Search"
               placeholder="Search your favorite food">
           </form>
-          <button class="btn btn-purple btn-login px-4 py-1">Login</button>
+          <button class="btn btn-purple btn-login rounded-4 px-4 py-2">Login</button>
         </div>
       </div>
     </div>
   </nav>
 
-  <div class="container">
+  <div class="banner mt-5">
 
+    <div class="card-banner bg-white rounded-4 p-4">
+      <div class="review">
+        <i class="icon icon-star"></i><i class="icon icon-star"></i><i class="icon icon-star"></i><i
+          class="icon icon-star"></i><i class="icon icon-star"></i>
+        <span class="text-yellow">5.0</span>
+        <span class="text-secondary">(5.2k+)</span>
+      </div>
+      <span class="fw-semibold fs-5 my-1 d-block">Padang Restaurant</span>
+      <span class="d-block my-2">IDR 49.999 - IDR 560.000</span>
+      <div class="location">
+        <i class="icon icon-location"></i>
+        <span class="text-secondary">Padang, Indonesia</span>
+      </div>
+
+      <button class="btn btn-yellow px-4 mt-4">Make Reservation ></button>
+      <div class="extra-info mt-3">
+        <i class="icon icon-info"></i>
+        <span class="text-secondary">No extra cost</span>
+      </div>
+    </div>
+
+    <div class="row flex-nowrap overflow-auto rounded-4">
+      <div class="banner-item active col-12 me-4">
+        <div class="banner-item-slide h-100 w-100 rounded-4">
+
+        </div>
+      </div>
+      <div class="banner-item col-12">
+        <div class="banner-item-slide h-100 w-100 rounded-4">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-5">
     <section class="benefit">
       <div class="benefit-header text-center mb-5">
         <h6 class="text-uppercase text-purple fw-semibold">Special benefit for you</h6>
