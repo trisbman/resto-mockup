@@ -78,3 +78,50 @@
 .restaurant-body .row > .col:nth-child(3) .card-restaurant {
   background-image: url(/image/place/image\ 7_1.png);
 }
+
+
+/* CHEF */
+.chef-detail {
+  position: relative;
+}
+.chef-detail-portrait {
+  width: 90%;
+}
+.chef-detail .chef-detail-portrait-image {
+  background-image: url(/image/chef.png);
+  background-size: cover;
+  transform: scaleX(-1);
+}
+
+.chef-detail-restaurant {
+  position: absolute;
+  z-index: 1;
+  height: 25%;
+  left: -10%;
+  bottom: 5%;
+  width: 55%;
+}
+.chef-detail-restaurant-img {
+  background-image: url(/image/place/image\ 6_1.png);
+  background-size: cover;
+}
+
+.chef-detail-experience {
+  position: absolute;
+  z-index: 1;
+  height: 30%;
+  right: 0;
+  top: 5%;
+  width: 30%;
+}
+.chef-detail-experience img {
+  object-fit: contain;
+  object-position: center;
+}
+
+.chef-list-body ul li .name {
+  font-size: 1.25rem;
+}
+.chef-list-body ul > li.active .card-chef {
+  background-color: white;
+}
