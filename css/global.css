@@ -1,0 +1,12 @@
+:root {
+  --black: black;
+  --purple: #5a4fcf;
+  --light-purple: #eae9f6;
+}
+body {
+  background-color: #f2f2f2;
+}
+* {
+  font-family: Poppins, sans-serif;
+}
+

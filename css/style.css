@@ -1,26 +1,13 @@
-:root {
-  --black: black;
-  --purple: #5a4fcf;
-  --light-purple: #eae9f6;
-}
-
-body {
-  background-color: #f2f2f2;
-}
-
 /* NAVBAR */
 
 .navbar-nav {
   width: 400px;
   justify-content: space-between;
 }
-.navbar-nav li {
-  font-weight: 500;
-}
 .navbar-nav li a.active {
   text-decoration: underline;
   text-underline-offset: 0.5rem;
-  text-decoration-thickness: .125rem;
+  text-decoration-thickness: 0.125rem;
   text-decoration-color: var(--purple);
 }
 .navbar-nav li a {
@@ -41,7 +28,8 @@ body {
   position: relative;
   top: 7.5px;
   left: 35px;
-  width: 20px;height: 20px;
+  width: 20px;
+  height: 20px;
   background-image: url("/image/Search.png");
   background-size: cover;
 }
