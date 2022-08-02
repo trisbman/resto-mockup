@@ -30,7 +30,7 @@
   left: 35px;
   width: 20px;
   height: 20px;
-  background-image: url("/image/Search.png");
+  background-image: url("../image/Search.png");
   background-size: cover;
 }
 .navbar .search-box {
@@ -67,10 +67,10 @@
 }
 
 .banner-item:first-child .banner-item-slide {
-  background-image: url(/image/place/image\ 4.png);
+  background-image: url(../image/place/image\ 4.png);
 }
 .banner-item:nth-child(2) .banner-item-slide {
-  background-image: url(/image/place/image\ 4_1.png);
+  background-image: url(../image/place/image\ 4_1.png);
 }
 .card-banner {
   position: absolute;
@@ -96,13 +96,13 @@
 }
 
 .featured-slide .col:first-child {
-  background-image: url(/image/place/image\ 5.png);
+  background-image: url(../image/place/image\ 5.png);
 }
 .featured-slide .col:nth-child(2) {
-  background-image: url(/image/place/image\ 6.png);
+  background-image: url(../image/place/image\ 6.png);
 }
 .featured-slide .col:nth-child(3) {
-  background-image: url(/image/place/image\ 6_2.png);
+  background-image: url(../image/place/image\ 6_2.png);
 }
 
 /* RESTAURANT */
@@ -113,13 +113,13 @@
 }
 
 .restaurant-body .row > .col:first-child .card-restaurant {
-  background-image: url(/image/place/image\ 8_1.png);
+  background-image: url(../image/place/image\ 8_1.png);
 }
 .restaurant-body .row > .col:nth-child(2) .card-restaurant {
-  background-image: url(/image/place/image\ 7.png);
+  background-image: url(../image/place/image\ 7.png);
 }
 .restaurant-body .row > .col:nth-child(3) .card-restaurant {
-  background-image: url(/image/place/image\ 7_1.png);
+  background-image: url(../image/place/image\ 7_1.png);
 }
 
 /* CHEF */
@@ -130,7 +130,7 @@
   width: 90%;
 }
 .chef-detail .chef-detail-portrait-image {
-  background-image: url(/image/chef.png);
+  background-image: url(../image/chef.png);
   background-size: cover;
   transform: scaleX(-1);
 }
@@ -144,7 +144,7 @@
   width: 55%;
 }
 .chef-detail-restaurant-img {
-  background-image: url(/image/place/image\ 6_1.png);
+  background-image: url(../image/place/image\ 6_1.png);
   background-size: cover;
 }
 
