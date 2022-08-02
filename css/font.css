@@ -6,7 +6,7 @@
 @font-face {
   font-family: Poppins;
   src: url(/font/Poppins/Poppins-Medium.ttf) format('truetype');
-  font-weight: 600
+  font-weight: 500
 }
 @font-face {
   font-family: Poppins;
@@ -22,4 +22,9 @@
   font-family: Poppins;
   src: url(/font/Poppins/Poppins-Black.ttf) format('truetype');
   font-weight: 800
+}
+@font-face {
+  font-family: Poppins;
+  src: url(/font/Poppins/Poppins-SemiBold.ttf) format('truetype');
+  font-weight: 600
 }

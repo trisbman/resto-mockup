@@ -42,3 +42,10 @@
   background-color: var(--light-purple);
   font-weight: bolder;
 }
+
+
+/* BENEFIT */
+
+.card-img-top {  
+  object-fit: contain;
+}
